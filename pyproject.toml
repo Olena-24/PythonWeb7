@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "python-web-7"
+version = "0.1.0"
+description = "homework 7"
+authors = ["Olena Maliarenko"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+alembic = "^1.13.1"
+sqlalchemy = "^2.0.28"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
